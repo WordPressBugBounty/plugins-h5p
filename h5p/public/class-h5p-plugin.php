@@ -24,7 +24,7 @@ class H5P_Plugin {
    * @since 1.0.0
    * @var string
    */
-  const VERSION = '1.16.2';
+  const VERSION = '1.17.1';
 
   /**
    * The Unique identifier for this plugin.
@@ -738,6 +738,7 @@ class H5P_Plugin {
    * @since 1.0.0
    */
   public function enqueue_styles_and_scripts() {
+    wp_enqueue_style($this->plugin_slug . '-plugin-fonts', plugins_url('h5p/h5p-php-library/styles/h5p-fonts.css'), array(), self::VERSION);
     wp_enqueue_style($this->plugin_slug . '-plugin-styles', plugins_url('h5p/h5p-php-library/styles/h5p.css'), array(), self::VERSION);
   }
 
