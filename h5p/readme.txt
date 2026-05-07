@@ -4,7 +4,7 @@ Donate link: http://h5p.org
 Tags: editor, video, quiz, slider, education
 Requires at least: 3.8.1
 Tested up to: 6.9
-Stable tag: 1.17.6
+Stable tag: 1.17.7
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
@@ -533,3 +533,6 @@ Fix warnings printed when using undefined property.
 
 = 1.17.6 =
 Fix clearFilteredParameters() not working properly for dependencies.
+
+= 1.17.7 =
+Fix url sanitization.
