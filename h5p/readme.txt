@@ -3,8 +3,8 @@ Contributors: icc0rz, fnoks, underhaug, makmentins
 Donate link: http://h5p.org
 Tags: editor, video, quiz, slider, education
 Requires at least: 3.8.1
-Tested up to: 6.9
-Stable tag: 1.17.7
+Tested up to: 7.0
+Stable tag: 1.17.8
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
@@ -536,3 +536,6 @@ Fix clearFilteredParameters() not working properly for dependencies.
 
 = 1.17.7 =
 Fix url sanitization.
+
+= 1.17.8 =
+Fix improved file ignore patterns when storing content.
